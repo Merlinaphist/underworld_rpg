@@ -66,7 +66,7 @@ class Underworld{
                     System.out.print("ENTER: yes or no.\n");
                     choice = scanner.nextLine();
                     if (choice.equals("yes")){
-                        System.out.print("Thank you so much for playing our game! If you have any suggestion, feel free to email jm688@duke.edu. In addition, specially thanks to Prof. Jiang Long for giving us this opportunity, and especial gratitude to Prof. Daniel Lim who taught me the structure of a RPG game.\n--Jiazheng Miao\n\nThe other author wants to parody the game UNDERTALE through this project, to show admire on this kind of 2D RPG game.\n --- Jiajun Yu, class of 2022 at Duke Kunshan (This game was a project for class cs201).\n\n");
+                        System.out.print("Thank you so much for playing our game! The authors want to parody the game UNDERTALE through this project, to show admire on this kind of 2D RPG game.");
                         System.exit(0);
                     }else if (choice.equals("no")){
                         break;
